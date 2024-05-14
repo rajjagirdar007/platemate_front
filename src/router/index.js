@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
+import FeedView from '../views/Feed.vue'
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,14 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: AboutView
+  },
+  {
+    path: '/feed',
+    name: 'feed',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: FeedView
   }
 ]
 
