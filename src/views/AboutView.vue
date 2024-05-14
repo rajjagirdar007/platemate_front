@@ -38,7 +38,7 @@ export default {
           id: 2,
           restaurantName: 'Pasta Paradise',
           image: 'https://via.placeholder.com/350x200?text=Pasta+Paradise',
-          text: 'Loved the creamy pasta here. Will come again!',
+          text: 'Loved the creamy pasta here. Will come againdsfhssfsdf!',
           time: '10 mins ago'
         }
         // Add more reviews as needed
