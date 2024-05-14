@@ -1,17 +1,17 @@
 <template>
 <div>
-    <img src="/img/fijita.jpeg" class="card-img-top" style="height: 230px;"/> 
+    <img src="/assets/img/fijita.jpeg" class="card-img-top" style="height: 230px;"/> 
     <article class="media">
         <figure class="media-left">
             <p class="image is-64x64">
-                <img src="/img/avatar.png" />
+                <img src="/assets/img/avatar.png" />
             </p>
         </figure>
         <div class="media-content">
             <div class="content">
                 <p>
                     <strong>John Smith</strong> <small>ate</small> <strong>Tapas</strong> <small> at </small> <strong>Tio's Taco</strong> <small>31m</small>
-                    <br />
+                    <br />  
                     <article class="message is-success">
                         <div class="message-header">
                             <div class="columns is-mobile is-multiline is-centered">
