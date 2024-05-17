@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <h3 class="platemate title has-text-centered">PlateMate</h3>
+    <h1 class="platemate title has-text-centered">PlateMate</h1>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/post">Post</router-link> |
       <router-link to="/feed2">feed2</router-link> |
-      <router-link to="/feed">Feed</router-link>
+      <router-link to="/feed">Feed</router-link> |
+      <router-link to="/menu">Menu</router-link>
     </nav>
     <router-view/>
   </div>
@@ -38,5 +39,14 @@ nav a.router-link-exact-active {
 .title.platemate {
   color: rgba(206, 68, 41, 1);
   font: cursive;
+  padding-top: 2vh;
+}
+
+.section{
+  padding: 0 !important;
+}
+
+h1 {
+  padding-top: 2vh; /* Remove margin below h1 */
 }
 </style>
