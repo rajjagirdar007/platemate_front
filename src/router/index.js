@@ -3,6 +3,10 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import FeedView from '../views/Feed.vue'
+import FeedView2 from '../views/Feed2.vue'
+
+import Post from '../views/Post.vue'
+
 
 Vue.use(VueRouter)
 
@@ -27,6 +31,22 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: FeedView
+  },
+  {
+    path: '/feed2',
+    name: 'feed',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: FeedView2
+  },
+  {
+    path: '/post',
+    name: 'post',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Post
   }
 ]
 

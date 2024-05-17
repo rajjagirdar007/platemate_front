@@ -1,8 +1,11 @@
 <template>
   <div id="app">
+    <h3 class="platemate title has-text-centered">PlateMate</h3>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
+      <router-link to="/post">Post</router-link> |
+      <router-link to="/feed2">feed2</router-link> |
       <router-link to="/feed">Feed</router-link>
     </nav>
     <router-view/>
@@ -28,6 +31,12 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgba(206, 68, 41, 1);
+}
+
+/* Add this rule to style the PlateMate h1 element */
+.title.platemate {
+  color: rgba(206, 68, 41, 1);
+  font: cursive;
 }
 </style>
